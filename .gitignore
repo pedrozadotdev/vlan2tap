@@ -1,0 +1,39 @@
+# Compiled binary
+/vlan2tap
+
+# Go build/test artifacts
+*.test
+*.out
+*.prof
+coverage.out
+
+# Build directories
+/bin/
+/build/
+/dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local configuration / test files
+config.local.json
+*.local.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.new
